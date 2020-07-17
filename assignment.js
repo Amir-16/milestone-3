@@ -1,14 +1,14 @@
 //assignment no 1 
 
-/*function feetToMile(feet){
+function feetToMile(feet){
 
     var mile= feet/5280;
     return mile;
 }
-var ans=feetToMile(200);
+var ans=feetToMile(500);
 console.log(ans);
 
-*/
+
 //assignment no 2
 
 /*function woodCalculator(chair,table,khat){
@@ -32,17 +32,45 @@ console.log(needWood);
 
 //brickCalculator
 
+/*
+
+function brickCalculator(storied){
+
+    var feet=1000 ;
+    var stryd1;
+    var stryd2;
+    var stryd2;
+
+
+if(storied<=10){
+
+   var stryd1= feet  *15 * storied;
+   return stryd1;
+}
+else if(storied >=11 && storied<=20){
+    var stryd2= feet * 12 * storied;
+    return  stryd1+ stryd2;
+}
+else if(storied >=21){
+     var stryd3= feet * 10 * storied;
+     return stryd1+ stryd2 + stryd3;
+}
+
+}
+
+ var countBrick=brickCalculator(10);
+ console.log(countBrick);
 
 
 
-
+*/
 
 
 //assignment 4
 
 //finding short length of friend name
 
-function tinyFriend(persons) {
+/*function tinyFriend(persons) {
     let shortLength = Infinity;
     let tiny = "";
 
@@ -61,4 +89,4 @@ function tinyFriend(persons) {
 var ans = tinyFriend(['Minhaz','Sanwar', 'Javed']);
 console.log(ans);
 
-
+*/
